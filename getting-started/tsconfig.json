@@ -1,0 +1,10 @@
+{
+  //! tsc명령어를 사용해 ts로 compile할때, 참조할 옵션을 설정해 주는 녀석
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noImplicitAny": true //모든타입에 대해 최소한 any라고하는 기본적인 타입이라도 넣어야 한다는 설정
+  }
+}
+
+// @ts-check = checkJs
